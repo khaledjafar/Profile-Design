@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+body{
+    background-color: rgb(255, 243, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    background-color: white;
+    width: 450px;
+    height: 600px;
+    border-radius: 50px;
+}
+.top-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #963251;
+    width: 100%;
+    height: 170px;
+    border-radius: 50px 50px 0px 0px;
+}
+.Avatar{
+    border-radius: 100%;
+    width: 130px;
+    margin-top: 20px;
+   user-select: none; /* remove selection  */
+}
+.waves{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+}
+.svg-path{
+    position: relative;
+    z-index: 3;
+    top: -5px;
+    width: 100%;
+
+}
+.svg-path1{
+    position: relative;
+    z-index: 2;
+    top: -125px; /* -125px*/
+    width: 100%;
+
+}
+.svg-path2{
+    width: 100%;
+    z-index: 0;
+    position: relative;
+    top: -225px;/* -225px*/
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    user-select: none; /* remove selection  */
+    font-family:Georgia;
+    margin-bottom: 0px;
+}
+h8{
+    user-select: none; /* remove selection  */
+    margin-top: 5px;
+}
+.Platforms{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+}
+p{
+    user-select: none; /* remove selection  */
+    font-family: arial;
+    font-size: 16px;
+    margin-top: 40px;
+    padding: 0px 40px;
+    text-align: center;
+}
+.end-card{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 30px;
+}
+.btn{
+    user-select: none; /* remove selection  */
+    font-family: arial;
+    font-size: 16px;
+    color: white;
+    background-color: #e73f92;
+    width: 120px;
+    height: 40px;
+    border-radius: 18px;
+    border: 0px;
+}
+.btn2{
+    user-select: none; /* remove selection  */
+    background-color: white;
+    font-family: arial;
+    font-size: 16px;
+    color: black;
+    width: 120px;
+    height: 40px;
+    border-radius: 18px;
+    border: 1px solid black;
+}
